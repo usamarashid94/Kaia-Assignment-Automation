@@ -12,7 +12,9 @@ This repository contains source code for Automated Test Scripts of Login functio
 
 ##### Running Tests
   1. Clone this gitub repo and cd into it
-  2. Run the following command to run entire Test Suite
+  2. Add Test Data in PageObjects/TestData/TestData.py
+  3. Update Emulator name in PageObjects/KeywordDefinationFiles/Util.robot at line number 9
+  4. Run the following command to run entire Test Suite
 ```
 robot venv/Tests/testing.robot
 ```
