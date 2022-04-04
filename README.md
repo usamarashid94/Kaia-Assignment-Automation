@@ -13,12 +13,16 @@ This repository contains source code for Automated Test Scripts of Login functio
 ##### Running Tests
   1. Clone this gitub repo and cd into it
   2. Add Test Data in PageObjects/TestData/TestData.py
-  3. Update Emulator name in PageObjects/KeywordDefinationFiles/Util.robot at line number 9
-  4. Run the following command to run entire Test Suite
+  3. Run the Appium Server
+```
+Appium &
+```
+  4. Update Emulator name in PageObjects/KeywordDefinationFiles/Util.robot at line number 9
+  5. Run the following command to run entire Test Suite
 ```
 robot venv/Tests/testing.robot
 ```
-  3. Run the following command to run a single Test 
+  Run the following command to run a single Test 
 ```
 robot -t "<Test Case Name>" venv/Tests/testing.robot
 ```
